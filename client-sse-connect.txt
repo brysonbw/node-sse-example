@@ -1,0 +1,10 @@
+1. can use browser EventSource lib to connect to server and listen to events
+let sse = new EventSource('http://localhost:5000/stream');
+sse.onmessage = console.log
+
+restablishes connection when server dies
+
+However, organically it will restart but not from where it left off
+
+NOTE ^
+So, you must design the event so it can log or keep track of the event for which it sent
