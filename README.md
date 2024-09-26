@@ -10,10 +10,9 @@ npm install
 npm run dev
 ```
 
-## What is SSE (Sever-Side-Events)?
+## What is SSE (Sever-Side-Events)
 A one-way connection, the server sending data to the client.
 
-### How Does SSE (Server-Side-Events) Work?
 Server/Response sends the ‘text’ through the headers to client
 > Node JS Example: 
 ```javaScript
